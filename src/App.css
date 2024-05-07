@@ -7,6 +7,10 @@
 .Contador{
   display: flex;
   flex-direction: column;
+  padding: 20px 30px;
+  border-radius: 10px;
+  margin: 15px;
+  background-color: yellowgreen;
 }
 
 .Valor{
@@ -19,4 +23,16 @@
 .Botonera{
   display: flex;
   flex-direction: row;
+}
+
+.Boton{
+  padding: 10px 15px;
+  width: 30px;
+  font-size: 24px;
+  font-weight: bold;
+  margin: 10px;
+  text-align: center;
+  background-color: coral;
+  border-radius: 10px;
+  cursor: pointer;
 }
